@@ -1,7 +1,7 @@
 // RECOMMENDED
-import { AlertModule } from 'ngx-bootstrap/alert';
+import { AlertModule } from '@danielson73s/ngx-bootstrap/alert';
 // or
-import { AlertModule } from 'ngx-bootstrap';
+import { AlertModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [AlertModule.forRoot(),...]

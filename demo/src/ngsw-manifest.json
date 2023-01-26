@@ -1,7 +1,7 @@
 {
-  "name": "ngx-bootstrap",
+  "name": "@danielson73s/ngx-bootstrap",
   "short_name": "ngx-bs",
-  "description": "ngx-bootstrap documentation",
+  "description": "@danielson73s/ngx-bootstrap documentation",
   "lang": "en-GB",
   "start_url": "/",
   "display": "standalone",

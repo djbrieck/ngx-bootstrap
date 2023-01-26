@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PopoverConfig } from 'ngx-bootstrap/popover';
+import { PopoverConfig } from '@danielson73s/ngx-bootstrap/popover';
 
 // such override allows to keep some initial values
 

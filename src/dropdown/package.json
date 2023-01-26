@@ -1,6 +1,6 @@
 {
-  "name": "ngx-bootstrap/dropdown",
-  "version": "3.3.2",
+  "name": "@danielson73s/ngx-bootstrap/dropdown",
+  "version": "3.3.6",
   "description": "Native Angular Bootstrap Components",
   "private": true,
   "ngPackage": {
@@ -10,9 +10,9 @@
     },
     "dest": "../../dist/dropdown",
     "whiteListedNonPeerDependencies": [
-      "ngx-bootstrap/utils",
-      "ngx-bootstrap/component-loader",
-      "ngx-bootstrap/positioning"
+      "@danielson73s/ngx-bootstrap/utils",
+      "@danielson73s/ngx-bootstrap/component-loader",
+      "@danielson73s/ngx-bootstrap/positioning"
     ]
   }
 }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TabDirective } from 'ngx-bootstrap/tabs';
+import { TabDirective } from '@danielson73s/ngx-bootstrap/tabs';
 
 @Component({
   selector: 'demo-tabs-select-event',

@@ -1,7 +1,7 @@
 // RECOMMENDED
-import { SortableModule } from 'ngx-bootstrap/sortable';
+import { SortableModule } from '@danielson73s/ngx-bootstrap/sortable';
 // or
-import { SortableModule } from 'ngx-bootstrap';
+import { SortableModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [SortableModule.forRoot(),...]

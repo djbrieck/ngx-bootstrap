@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BsDatepickerConfig } from 'ngx-bootstrap/datepicker';
+import { BsDatepickerConfig } from '@danielson73s/ngx-bootstrap/datepicker';
 
 @Component({
   selector: 'demo-datepicker-color-theming',

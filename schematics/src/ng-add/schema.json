@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "id": "ngx-bootstrap-ng-add",
-  "title": "Ngx-bootstrap ng-add schematic",
+  "id": "@danielson73s/ngx-bootstrap-ng-add",
+  "title": "@danielson73s/ngx-bootstrap ng-add schematic",
   "type": "object",
   "properties": {
     "project": {

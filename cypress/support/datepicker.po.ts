@@ -1,5 +1,5 @@
 import { BaseComponent } from './base.component';
-import * as globalLocales from 'ngx-bootstrap/locale';
+import * as globalLocales from '@danielson73s/ngx-bootstrap/locale';
 
 export class DatepickerPo extends BaseComponent {
   pageUrl = '/datepicker';

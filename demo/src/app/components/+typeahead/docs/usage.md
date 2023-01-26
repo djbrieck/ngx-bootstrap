@@ -1,7 +1,7 @@
 // RECOMMENDED
-import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
+import { TypeaheadModule } from '@danielson73s/ngx-bootstrap/typeahead';
 // or
-import { TypeaheadModule } from 'ngx-bootstrap';
+import { TypeaheadModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [TypeaheadModule.forRoot(),...]

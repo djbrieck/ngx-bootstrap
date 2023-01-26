@@ -2,7 +2,7 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "ng-add": {
-      "description": "Adds ngx-bootstrap to the application without affecting any templates",
+      "description": "Adds @danielson73s/ngx-bootstrap to the application without affecting any templates",
       "factory": "./ng-add/index",
       "schema": "./ng-add/schema.json"
     }

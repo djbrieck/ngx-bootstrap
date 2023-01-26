@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PageChangedEvent } from 'ngx-bootstrap/pagination';
+import { PageChangedEvent } from '@danielson73s/ngx-bootstrap/pagination';
 
 @Component({
   selector: 'demo-pagination-content-switching',

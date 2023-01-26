@@ -1,5 +1,5 @@
 import { DatepickerPo } from '../../support/datepicker.po';
-import * as globalLocales from 'ngx-bootstrap/locale';
+import * as globalLocales from '@danielson73s/ngx-bootstrap/locale';
 
 describe('Datepicker demo test suite: Locales', () => {
   const datepicker = new DatepickerPo();

@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { ModalDirective } from 'ngx-bootstrap/modal';
+import { ModalDirective } from '@danielson73s/ngx-bootstrap/modal';
 
 @Component({
   selector: 'demo-modal-child',

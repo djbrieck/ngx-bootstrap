@@ -1,7 +1,7 @@
 // RECOMMENDED
-import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
+import { ProgressbarModule } from '@danielson73s/ngx-bootstrap/progressbar';
 // or
-import { ProgressbarModule } from 'ngx-bootstrap';
+import { ProgressbarModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [ProgressbarModule.forRoot(),...]

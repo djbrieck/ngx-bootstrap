@@ -1,5 +1,5 @@
 import { Component, HostListener, ViewChild } from '@angular/core';
-import { BsDatepickerDirective } from 'ngx-bootstrap/datepicker';
+import { BsDatepickerDirective } from '@danielson73s/ngx-bootstrap/datepicker';
 
 @Component({
   selector: 'demo-date-picker-hide-on-scroll',

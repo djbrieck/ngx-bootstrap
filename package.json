@@ -1,6 +1,6 @@
 {
-  "name": "ngx-bootstrap-base",
-  "version": "3.3.2",
+  "name": "@danielson73s/ngx-bootstrap-base",
+  "version": "3.3.6",
   "description": "Native Angular Bootstrap Components",
   "private": false,
   "scripts": {
@@ -175,9 +175,5 @@
   },
   "directories": {
     "doc": "docs"
-  },
-  "dependencies": {
-    "ngx-bootstrap": "3.3.0",
-    "popper.js": "1.16.1"
   }
 }

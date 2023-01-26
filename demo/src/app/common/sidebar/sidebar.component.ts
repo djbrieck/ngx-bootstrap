@@ -2,7 +2,7 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { Component, Inject, OnDestroy, Renderer } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
-import { isBs3, setTheme } from 'ngx-bootstrap/utils';
+import { isBs3, setTheme } from '@danielson73s/ngx-bootstrap/utils';
 import { routes } from '../../app.routing';
 import { StyleManager } from '../../theme/style-manager';
 import { ThemeStorage } from '../../theme/theme-storage';

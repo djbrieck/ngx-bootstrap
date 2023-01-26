@@ -7,7 +7,7 @@ import {
   Renderer2
 } from '@angular/core';
 import { BsDropdownState } from './bs-dropdown.state';
-import { isBs3 } from 'ngx-bootstrap/utils';
+import { isBs3 } from '@danielson73s/ngx-bootstrap/utils';
 
 @Component({
   selector: 'bs-dropdown-container',

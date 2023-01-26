@@ -43,7 +43,7 @@ stages:
 
 before_install:
   - sh -e /etc/init.d/xvfb start
-  - rm -rf node_modules/ngx-bootstrap
+  - rm -rf node_modules/@danielson73s/ngx-bootstrap
 
 install:
   - npm ci

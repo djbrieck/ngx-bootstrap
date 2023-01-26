@@ -19,13 +19,13 @@ import {
   ViewContainerRef
 } from '@angular/core';
 
-import { PositioningOptions, PositioningService } from 'ngx-bootstrap/positioning';
+import { PositioningOptions, PositioningService } from '@danielson73s/ngx-bootstrap/positioning';
 
 import {
   listenToTriggersV2,
   registerEscClick,
   registerOutsideClick
-} from 'ngx-bootstrap/utils';
+} from '@danielson73s/ngx-bootstrap/utils';
 
 import { ContentRef } from './content-ref.class';
 import { ListenOptions } from './listen-options.model';

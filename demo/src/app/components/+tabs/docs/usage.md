@@ -1,7 +1,7 @@
 // RECOMMENDED
-import { TabsModule } from 'ngx-bootstrap/tabs';
+import { TabsModule } from '@danielson73s/ngx-bootstrap/tabs';
 // or
-import { TabsModule } from 'ngx-bootstrap';
+import { TabsModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [TabsModule.forRoot(),...]

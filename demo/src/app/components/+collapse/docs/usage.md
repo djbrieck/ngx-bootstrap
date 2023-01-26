@@ -1,7 +1,7 @@
 // RECOMMENDED
-import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { CollapseModule } from '@danielson73s/ngx-bootstrap/collapse';
 // or
-import { CollapseModule } from 'ngx-bootstrap';
+import { CollapseModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [CollapseModule.forRoot(),...]

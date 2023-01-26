@@ -7,14 +7,14 @@ describe('Landing Page test suite', () => {
 
   describe('Content', () => {
 
-    it('header displays ngx-bootstrap logo and info buttons', () => {
+    it('header displays @danielson73s/ngx-bootstrap logo and info buttons', () => {
       cy.get(landing.logoAtHeader)
         .should('be.visible');
       cy.get(landing.infoButtons)
         .should('be.visible');
     });
 
-    it('main content displays ngx-bootstrap logo, slogan, description, version and advantages block', () => {
+    it('main content displays @danielson73s/ngx-bootstrap logo, slogan, description, version and advantages block', () => {
       cy.get(landing.logoAtContent)
         .should('be.visible');
       cy.get(landing.sloganBs)

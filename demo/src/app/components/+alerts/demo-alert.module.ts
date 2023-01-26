@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { AlertModule } from 'ngx-bootstrap/alert';
+import { AlertModule } from '@danielson73s/ngx-bootstrap/alert';
 
 import { AlertsSectionComponent } from './alerts-section.component';
 import { DEMO_COMPONENTS } from './demos';

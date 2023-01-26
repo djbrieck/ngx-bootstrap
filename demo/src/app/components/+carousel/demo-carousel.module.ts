@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { CarouselModule } from '@danielson73s/ngx-bootstrap/carousel';
 
 import { DocsModule } from '../../docs';
 

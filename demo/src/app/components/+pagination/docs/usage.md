@@ -1,7 +1,7 @@
 // RECOMMENDED
-import { PaginationModule } from 'ngx-bootstrap/pagination';
+import { PaginationModule } from '@danielson73s/ngx-bootstrap/pagination';
 // or
-import { PaginationModule } from 'ngx-bootstrap';
+import { PaginationModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [PaginationModule.forRoot(),...]

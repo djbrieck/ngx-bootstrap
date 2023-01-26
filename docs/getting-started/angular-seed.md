@@ -27,7 +27,7 @@ this.NPM_DEPENDENCIES = [
 const additionalPackages: ExtendPackages[] = [
 // required for dev build
 {
-  name: 'ngx-bootstrap',
+  name: '@danielson73s/ngx-bootstrap',
   path: 'node_modules/ngx-bootstrap',
   packageMeta: {
     main: 'bundles/ngx-bootstrap.umd.min.js',
@@ -37,7 +37,7 @@ const additionalPackages: ExtendPackages[] = [
 
 // required for prod build
 {
-  name: 'ngx-bootstrap/*',
+  name: '@danielson73s/ngx-bootstrap/*',
   path: 'node_modules/ngx-bootstrap/*',
   packageMeta: {
     main: 'bundles/ngx-bootstrap.umd.min.js',
@@ -53,7 +53,7 @@ this.addPackagesBundles(additionalPackages);
 #### In `home.module.ts`:
 
 ```typescript
-import { AlertModule } from 'ngx-bootstrap';
+import { AlertModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [CommonModule, HomeRoutingModule, SharedModule, AlertModule.forRoot()],

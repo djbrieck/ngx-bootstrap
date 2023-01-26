@@ -2,9 +2,9 @@ FROM node
 
 RUN apt-get update
 
-RUN mkdir /home/ngx-bootstrap
+RUN mkdir /home/@danielson73s/ngx-bootstrap
 
-WORKDIR  /home/ngx-bootstrap
+WORKDIR  /home/@danielson73s/ngx-bootstrap
 
 COPY ./ ./
 

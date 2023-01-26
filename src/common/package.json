@@ -1,5 +1,5 @@
 {
-  "name": "ngx-bootstrap",
+  "name": "@danielson73s/ngx-bootstrap",
   "es2015": "bundles/ngx-bootstrap.es2015.js",
   "peerDependencies": {
     "@angular/core": "*",
@@ -13,5 +13,5 @@
     },
     "dest": "../../dist/common"
   },
-  "version": "3.3.2"
+  "version": "3.3.6"
 }

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-bootstrap": {
+    "@danielson73s/ngx-bootstrap": {
       "root": "",
       "sourceRoot": "demo/src",
       "projectType": "application",
@@ -68,21 +68,21 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-bootstrap:build"
+            "browserTarget": "@danielson73s/ngx-bootstrap:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-bootstrap:build:production"
+              "browserTarget": "@danielson73s/ngx-bootstrap:build:production"
             },
             "server": {
-              "browserTarget": "ngx-bootstrap:build:server"
+              "browserTarget": "@danielson73s/ngx-bootstrap:build:server"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-bootstrap:build"
+            "browserTarget": "@danielson73s/ngx-bootstrap:build"
           }
         },
         "test": {
@@ -122,7 +122,7 @@
         }
       }
     },
-    "ngx-bootstrap-e2e": {
+    "@danielson73s/ngx-bootstrap-e2e": {
       "root": "",
       "sourceRoot": "",
       "projectType": "application",
@@ -137,7 +137,7 @@
       }
     }
   },
-  "defaultProject": "ngx-bootstrap",
+  "defaultProject": "@danielson73s/ngx-bootstrap",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "",

@@ -1,7 +1,7 @@
 // RECOMMENDED
-import { TimepickerModule } from 'ngx-bootstrap/timepicker';
+import { TimepickerModule } from '@danielson73s/ngx-bootstrap/timepicker';
 // or
-import { TimepickerModule } from 'ngx-bootstrap';
+import { TimepickerModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [TimepickerModule.forRoot(),...]

@@ -1,7 +1,7 @@
 // RECOMMENDED
-import { PopoverModule } from 'ngx-bootstrap/popover';
+import { PopoverModule } from '@danielson73s/ngx-bootstrap/popover';
 // or
-import { PopoverModule } from 'ngx-bootstrap';
+import { PopoverModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [PopoverModule.forRoot(),...]

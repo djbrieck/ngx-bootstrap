@@ -2,7 +2,7 @@
 ==================================
 **Primary Actor**: User
 
-**Scope**: Ngx-bootstrap DEMO / BS version 3&4
+**Scope**: @danielson73s/ngx-bootstrap DEMO / BS version 3&4
 
 **Goal**: Show user With delay functionality
 

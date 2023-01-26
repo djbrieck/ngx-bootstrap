@@ -1,49 +1,49 @@
 /* tslint:disable */
-import { AccordionModule } from 'ngx-bootstrap/accordion';
-import { AlertModule } from 'ngx-bootstrap/alert';
-import { ButtonsModule } from 'ngx-bootstrap/buttons';
-import { CarouselModule } from 'ngx-bootstrap/carousel';
-import { CollapseModule } from 'ngx-bootstrap/collapse';
-import { BsDaterangepickerConfig } from 'ngx-bootstrap/datepicker';
-import { DatepickerModule } from 'ngx-bootstrap/datepicker';
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { ModalModule } from 'ngx-bootstrap/modal';
-import { PaginationModule } from 'ngx-bootstrap/pagination';
-import { PopoverModule } from 'ngx-bootstrap/popover';
-import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
-import { RatingModule } from 'ngx-bootstrap/rating';
-import { SortableModule } from 'ngx-bootstrap/sortable';
-import { TabsModule } from 'ngx-bootstrap/tabs';
-import { TimepickerModule } from 'ngx-bootstrap/timepicker';
-import { TooltipModule } from 'ngx-bootstrap/tooltip';
-import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
+import { AccordionModule } from '@danielson73s/ngx-bootstrap/accordion';
+import { AlertModule } from '@danielson73s/ngx-bootstrap/alert';
+import { ButtonsModule } from '@danielson73s/ngx-bootstrap/buttons';
+import { CarouselModule } from '@danielson73s/ngx-bootstrap/carousel';
+import { CollapseModule } from '@danielson73s/ngx-bootstrap/collapse';
+import { BsDaterangepickerConfig } from '@danielson73s/ngx-bootstrap/datepicker';
+import { DatepickerModule } from '@danielson73s/ngx-bootstrap/datepicker';
+import { BsDropdownModule } from '@danielson73s/ngx-bootstrap/dropdown';
+import { ModalModule } from '@danielson73s/ngx-bootstrap/modal';
+import { PaginationModule } from '@danielson73s/ngx-bootstrap/pagination';
+import { PopoverModule } from '@danielson73s/ngx-bootstrap/popover';
+import { ProgressbarModule } from '@danielson73s/ngx-bootstrap/progressbar';
+import { RatingModule } from '@danielson73s/ngx-bootstrap/rating';
+import { SortableModule } from '@danielson73s/ngx-bootstrap/sortable';
+import { TabsModule } from '@danielson73s/ngx-bootstrap/tabs';
+import { TimepickerModule } from '@danielson73s/ngx-bootstrap/timepicker';
+import { TooltipModule } from '@danielson73s/ngx-bootstrap/tooltip';
+import { TypeaheadModule } from '@danielson73s/ngx-bootstrap/typeahead';
 
-export { listLocales } from 'ngx-bootstrap/chronos';
-export { setTheme } from 'ngx-bootstrap/utils';
+export { listLocales } from '@danielson73s/ngx-bootstrap/chronos';
+export { setTheme } from '@danielson73s/ngx-bootstrap/utils';
 
 export {
   AccordionComponent,
   AccordionConfig,
   AccordionModule,
   AccordionPanelComponent
-} from 'ngx-bootstrap/accordion';
+} from '@danielson73s/ngx-bootstrap/accordion';
 
-export { AlertComponent, AlertConfig, AlertModule } from 'ngx-bootstrap/alert';
+export { AlertComponent, AlertConfig, AlertModule } from '@danielson73s/ngx-bootstrap/alert';
 
 export {
   ButtonCheckboxDirective,
   ButtonRadioDirective,
   ButtonsModule
-} from 'ngx-bootstrap/buttons';
+} from '@danielson73s/ngx-bootstrap/buttons';
 
 export {
   CarouselComponent,
   CarouselConfig,
   CarouselModule,
   SlideComponent
-} from 'ngx-bootstrap/carousel';
+} from '@danielson73s/ngx-bootstrap/carousel';
 
-export { CollapseDirective, CollapseModule } from 'ngx-bootstrap/collapse';
+export { CollapseDirective, CollapseModule } from '@danielson73s/ngx-bootstrap/collapse';
 
 export {
   DateFormatter,
@@ -59,7 +59,7 @@ export {
   BsLocaleService,
   BsDaterangepickerDirective,
   BsDatepickerDirective
-} from 'ngx-bootstrap/datepicker';
+} from '@danielson73s/ngx-bootstrap/datepicker';
 
 export {
   ModalDirective,
@@ -69,7 +69,7 @@ export {
   ModalModule,
   BsModalRef,
   BsModalService
-} from 'ngx-bootstrap/modal';
+} from '@danielson73s/ngx-bootstrap/modal';
 
 export {
   BsDropdownModule,
@@ -79,7 +79,7 @@ export {
   BsDropdownDirective,
   BsDropdownMenuDirective,
   BsDropdownToggleDirective
-} from 'ngx-bootstrap/dropdown';
+} from '@danielson73s/ngx-bootstrap/dropdown';
 
 export {
   PagerComponent,
@@ -87,16 +87,16 @@ export {
   PaginationConfig,
   PaginationModule,
   PageChangedEvent
-} from 'ngx-bootstrap/pagination';
+} from '@danielson73s/ngx-bootstrap/pagination';
 
 export {
   BarComponent,
   ProgressbarComponent,
   ProgressbarConfig,
   ProgressbarModule
-} from 'ngx-bootstrap/progressbar';
+} from '@danielson73s/ngx-bootstrap/progressbar';
 
-export { RatingComponent, RatingModule } from 'ngx-bootstrap/rating';
+export { RatingComponent, RatingModule } from '@danielson73s/ngx-bootstrap/rating';
 
 export {
   DraggableItem,
@@ -104,7 +104,7 @@ export {
   SortableItem,
   SortableComponent,
   SortableModule
-} from 'ngx-bootstrap/sortable';
+} from '@danielson73s/ngx-bootstrap/sortable';
 
 export {
   NgTranscludeDirective,
@@ -113,20 +113,20 @@ export {
   TabsetComponent,
   TabsetConfig,
   TabsModule
-} from 'ngx-bootstrap/tabs';
+} from '@danielson73s/ngx-bootstrap/tabs';
 
 export {
   TimepickerComponent,
   TimepickerConfig,
   TimepickerModule
-} from 'ngx-bootstrap/timepicker';
+} from '@danielson73s/ngx-bootstrap/timepicker';
 
 export {
   TooltipConfig,
   TooltipContainerComponent,
   TooltipDirective,
   TooltipModule
-} from 'ngx-bootstrap/tooltip';
+} from '@danielson73s/ngx-bootstrap/tooltip';
 
 export {
   TypeaheadOptions,
@@ -134,14 +134,14 @@ export {
   TypeaheadDirective,
   TypeaheadMatch,
   TypeaheadModule
-} from 'ngx-bootstrap/typeahead';
+} from '@danielson73s/ngx-bootstrap/typeahead';
 
 export {
   PopoverConfig,
   PopoverContainerComponent,
   PopoverDirective,
   PopoverModule
-} from 'ngx-bootstrap/popover';
+} from '@danielson73s/ngx-bootstrap/popover';
 
 export {
   OnChange,
@@ -155,27 +155,27 @@ export {
   Utils,
   listenToTriggersV2,
   registerOutsideClick
-} from 'ngx-bootstrap/utils';
+} from '@danielson73s/ngx-bootstrap/utils';
 
 export {
   ComponentLoader,
   ComponentLoaderFactory,
   ContentRef,
   BsComponentRef
-} from 'ngx-bootstrap/component-loader';
+} from '@danielson73s/ngx-bootstrap/component-loader';
 
 export {
   Positioning,
   PositioningOptions,
   PositioningService,
   positionElements
-} from 'ngx-bootstrap/positioning';
+} from '@danielson73s/ngx-bootstrap/positioning';
 
 export {
   Action,
   MiniState,
   MiniStore
-} from 'ngx-bootstrap/mini-ngrx';
+} from '@danielson73s/ngx-bootstrap/mini-ngrx';
 
 export {
   defineLocale,
@@ -203,6 +203,6 @@ export {
   endOf,
   startOf,
   TimeUnit
-} from 'ngx-bootstrap/chronos';
+} from '@danielson73s/ngx-bootstrap/chronos';
 
-export * from 'ngx-bootstrap/locale';
+export * from '@danielson73s/ngx-bootstrap/locale';

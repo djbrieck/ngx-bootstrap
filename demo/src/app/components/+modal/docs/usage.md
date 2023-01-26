@@ -1,7 +1,7 @@
 // RECOMMENDED
-import { ModalModule } from 'ngx-bootstrap/modal';
+import { ModalModule } from '@danielson73s/ngx-bootstrap/modal';
 // or
-import { ModalModule } from 'ngx-bootstrap';
+import { ModalModule } from '@danielson73s/ngx-bootstrap';
 
 @NgModule({
   imports: [ModalModule.forRoot(),...]
