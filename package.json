@@ -1,6 +1,6 @@
 {
   "name": "@danielson73s/ngx-bootstrap-base",
-  "version": "3.3.6",
+  "version": "3.3.7",
   "description": "Native Angular Bootstrap Components",
   "private": false,
   "scripts": {
@@ -15,7 +15,7 @@
     "demo.serve": "run-s demo.build lite-server",
     "demo.serve-universal": "run-s build:dynamic serve:dynamic",
     "demo.deploy": "run-s demo.build demo.deploy-gh-pages",
-    "link": "npm link ./dist && npm link ngx-bootstrap",
+    "link": "npm link ./dist && npm link @danielson73s/ngx-bootstrap",
     "lint-pretty": "prettier --config .prettierrc --write -l  \"{demo/src,src}/**/*.ts\"",
     "lint-src": "tslint \"src/**/*.ts\" -c tslint.json -p src/tsconfig.spec.json -e \"src/chronos/**\"",
     "lint": "exit 0",
@@ -46,7 +46,7 @@
     "view-stats": "webpack-bundle-analyzer demo/dist/stats.json",
     "build:dynamic": "run-s build build:client-and-server-bundles webpack:server configure-heroku",
     "serve:dynamic": "node demo/dist/server",
-    "build:client-and-server-bundles": "ng build --prod && ng run ngx-bootstrap:server",
+    "build:client-and-server-bundles": "ng build --prod && ng run @danielson73s/ngx-bootstrap:server",
     "webpack:server": "webpack --config ./scripts/universal/webpack.server.config.js --progress --colors",
     "configure-heroku": "node scripts/universal/configure-heroku.js"
   },
@@ -55,9 +55,9 @@
       "pre-push": "npm run lint-src"
     }
   },
-  "main": "bundles/ngx-bootstrap.umd.js",
-  "module": "esm5/ngx-bootstrap.js",
-  "typings": "ngx-bootstrap.d.ts",
+  "main": "bundles/danielson73s-ngx-bootstrap.umd.js",
+  "module": "esm5/danielson73s-ngx-bootstrap.js",
+  "typings": "danielson73s-ngx-bootstrap.d.ts",
   "keywords": [
     "angular",
     "bootstap",

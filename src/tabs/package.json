@@ -1,6 +1,6 @@
 {
   "name": "@danielson73s/ngx-bootstrap/tabs",
-  "version": "3.3.6",
+  "version": "3.3.7",
   "description": "Native Angular Bootstrap Components",
   "private": true,
   "ngPackage": {
