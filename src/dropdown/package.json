@@ -8,11 +8,6 @@
     "lib": {
       "entryFile": "public_api.ts"
     },
-    "dest": "../../dist/dropdown",
-    "whiteListedNonPeerDependencies": [
-      "@danielson73s/ngx-bootstrap/utils",
-      "@danielson73s/ngx-bootstrap/component-loader",
-      "@danielson73s/ngx-bootstrap/positioning"
-    ]
+    "dest": "../../dist/dropdown"
   }
 }
